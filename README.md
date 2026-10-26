@@ -1,8 +1,10 @@
 # WeParty
 
-**WeParty** is an Android party-planning app that helps hosts and guests organize events in one place — from invites and RSVPs to shared shopping lists, real-time group chat, and push notifications.
+**WeParty** is a collaborative Android party-planning app. Hosts and guests handle invites, RSVPs, shared shopping lists, real-time group chat, and push notifications in one event workspace.
 
-Built as a collaborative team project with **Kotlin**, **Jetpack Compose**, and **Firebase**.
+Built with **Kotlin**, **Jetpack Compose**, Material 3, and **Firebase** (Auth, Cloud Firestore, Storage, Cloud Messaging, and Cloud Functions).
+
+**Andy Tran** owned the event dashboard and messaging: persistent Firestore chat, the shared item checklist, unread indicators, and in-app plus FCM notifications when someone sends a message or claims an item.
 
 ---
 
@@ -40,6 +42,8 @@ WeParty turns party planning into a shared workflow instead of scattered group t
 - **Cloud:** Firebase Cloud Functions (notification delivery + scheduled reminders)
 - **Networking:** Retrofit (Walmart price API)
 - **Other:** Coil (images), Google Play Services Auth, AndroidX Biometric, deep linking (FlowLinks)
+
+**Topics:** `kotlin` · `android` · `kotlin-android` · `jetpack-compose` · `material-design` · `firebase` · `firebase-auth` · `firestore` · `firebase-storage` · `firebase-cloud-messaging` · `cloud-functions` · `push-notifications` · `retrofit`
 
 ---
 
